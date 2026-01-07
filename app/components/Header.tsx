@@ -32,7 +32,7 @@ export default function Header() {
 
   return (
     <header className="border-b border-gray-700">
-      <div className="mx-auto max-w-7xl px-10 h-24 flex items-center justify-between">
+      <div className="mx-auto max-w-7xl px-10 h-25 flex items-center justify-between">
         <strong className="text-lg">
           <Link href="/"><Image
   src="/logo.png"
