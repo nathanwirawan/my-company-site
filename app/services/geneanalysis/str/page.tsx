@@ -1,7 +1,7 @@
-export default function ProductAlphaPage() {
+export default function ServicesPage() {
   return (
     <>
-      <h1>Product 1</h1>
+      <h1> STR Analysis </h1>
       <p>Placeholder product detail page.</p>
     </>
   );
