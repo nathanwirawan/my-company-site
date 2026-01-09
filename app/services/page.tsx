@@ -1,14 +1,14 @@
 // app/services/page.tsx
 import CatalogGrid from "../components/CatalogGrid";
-import { services } from "../lib/catalog";
+import { servicesNav } from "../lib/catalog";
 
 export default function ServicesPage() {
   return (
     <CatalogGrid
-      title="Services"
-      subtitle="Contract research and lab support services."
+      title="Contract Bioresearch Services"
+      subtitle="From DNA to proteins. We are your second laboratory."
       baseHref="/services"
-      items={Object.values(services)}
+      items={Object.values(servicesNav)}
     />
   );
 }

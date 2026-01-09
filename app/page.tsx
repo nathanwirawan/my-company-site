@@ -22,7 +22,7 @@ export default function Home() {
           <div className="mx-auto max-w-3xl px-6 text-white">
             <h1 className="text-5xl font-bold tracking-wide">Welcome to BEX</h1>
             <p className="mt-4 text-base/7 text-white/90">
-              Advanced molecular biology tech and services supporting research and innovation.
+              Contract bioresearch service provider & scientific instrumentation manufacturer.
             </p>
 
             {/* CTA buttons (optional) */}
@@ -80,8 +80,8 @@ export default function Home() {
               </ul>
 
               <Link
-                href="/products"
-                className="mt-6 inline-flex items-center rounded-md bg-gray-900 px-4 py-2 text-sm font-semibold text-white hover:bg-gray-800"
+                href="/services"
+                className="mt-6 inline-flex items-center rounded-md bg-cyan-900 px-4 py-2 text-sm font-semibold text-white hover:bg-gray-800"
               >
                 Explore Services →
               </Link>
@@ -100,8 +100,8 @@ export default function Home() {
               </ul>
 
               <Link
-                href="/products"
-                className="mt-6 inline-flex items-center rounded-md bg-gray-900 px-4 py-2 text-sm font-semibold text-white hover:bg-gray-800"
+                href="/instruments"
+                className="mt-6 inline-flex items-center rounded-md bg-cyan-900 px-4 py-2 text-sm font-semibold text-white hover:bg-gray-800"
               >
                 Explore Equipment →
               </Link>

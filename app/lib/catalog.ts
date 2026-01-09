@@ -70,11 +70,11 @@ export const servicesNav: CatalogNode[] = [
     tagline: "DNA/RNA/siRNA synthesis options and related oligo products.",
     bullets: ["Custom oligo synthesis", "Modified oligos", "Short turnaround options"],
     children: [
-      { slug: "oligodna", navLabel: "OligoDNA", navOrder: 1, title: "OligoDNA" },
-      { slug: "oligokit", navLabel: "OligoKit", navOrder: 2, title: "OligoKit" },
-      { slug: "sirna", navLabel: "siRNA synthesis", navOrder: 3, title: "siRNA synthesis" },
-      { slug: "rnasynthesis", navLabel: "RNA synthesis", navOrder: 4, title: "RNA synthesis" },
-      { slug: "chimera-rna", navLabel: "Chimera DNA/RNA insertion", navOrder: 5, title: "Chimera DNA/RNA insertion" },
+      { slug: "oligodna", navLabel: "Oligo DNA", navOrder: 1, title: "Oligo DNA" },
+      { slug: "oligokit", navLabel: "Oligo Kit", navOrder: 2, title: "Oligo Kit" },
+      { slug: "sirna", navLabel: "siRNA Synthesis", navOrder: 3, title: "siRNA Synthesis" },
+      { slug: "rnasynthesis", navLabel: "RNA Synthesis", navOrder: 4, title: "RNA Synthesis" },
+      { slug: "chimera-rna", navLabel: "Chimera DNA/RNA Insertion", navOrder: 5, title: "Chimera DNA/RNA insertion" },
     ],
   },
   {
@@ -109,10 +109,10 @@ export const servicesNav: CatalogNode[] = [
     tagline: "Experimental support for genetic engineering workflows.",
     children: [
       { slug: "gene_synthesis", navLabel: "Artificial Gene Synthesis", navOrder: 1, title: "Artificial Gene Synthesis" },
-      { slug: "mrna", navLabel: "mRNA synthesis", navOrder: 2, title: "mRNA synthesis" },
-      { slug: "pcr", navLabel: "PCR contract", navOrder: 3, title: "PCR contract" },
-      { slug: "dnaextraction", navLabel: "DNA/RNA extraction", navOrder: 4, title: "DNA/RNA extraction" },
-      { slug: "plasmidprep", navLabel: "Plasmid preparation", navOrder: 5, title: "Plasmid preparation" },
+      { slug: "mrna", navLabel: "mRNA Synthesis", navOrder: 2, title: "mRNA Synthesis" },
+      { slug: "pcr", navLabel: "PCR Contract", navOrder: 3, title: "PCR Contract" },
+      { slug: "dnaextraction", navLabel: "DNA/RNA Extraction", navOrder: 4, title: "DNA/RNA Extraction" },
+      { slug: "plasmidprep", navLabel: "Plasmid Preparation", navOrder: 5, title: "Plasmid Preparation" },
     ],
   },
   {
