@@ -64,7 +64,7 @@ export type CatalogSection = {
 export const servicesNav: CatalogNode[] = [
   {
     slug: "oligosynthesis",
-    navLabel: "Oligo synthesis",
+    navLabel: "Oligo DNA/RNA synthesis",
     navOrder: 1,
     title: "Oligo DNA & RNA synthesis",
     tagline: "DNA/RNA/siRNA synthesis options and related oligo products.",
@@ -74,12 +74,12 @@ export const servicesNav: CatalogNode[] = [
       { slug: "oligokit", navLabel: "OligoKit", navOrder: 2, title: "OligoKit" },
       { slug: "sirna", navLabel: "siRNA synthesis", navOrder: 3, title: "siRNA synthesis" },
       { slug: "rnasynthesis", navLabel: "RNA synthesis", navOrder: 4, title: "RNA synthesis" },
-      { slug: "chimera-rna", navLabel: "Chimera RNA / RNR insertion", navOrder: 5, title: "Chimera RNA / RNR insertion" },
+      { slug: "chimera-rna", navLabel: "Chimera DNA/RNA insertion", navOrder: 5, title: "Chimera DNA/RNA insertion" },
     ],
   },
   {
     slug: "peptidesynthesis",
-    navLabel: "Peptide synthesis",
+    navLabel: "Peptide Synthesis, Antibody Production",
     navOrder: 2,
     title: "Peptide synthesis",
     tagline: "Custom peptides for research, screening, and validation.",
@@ -91,7 +91,7 @@ export const servicesNav: CatalogNode[] = [
   },
   {
     slug: "geneanalysis",
-    navLabel: "Gene analysis",
+    navLabel: "Gene Analysis",
     navOrder: 3,
     title: "Gene analysis",
     tagline: "Analysis services supporting discovery and verification workflows.",
@@ -103,7 +103,7 @@ export const servicesNav: CatalogNode[] = [
   },
   {
     slug: "geneticengineering",
-    navLabel: "Genetic engineering experiments",
+    navLabel: "Genetic Engineering Experiments",
     navOrder: 4,
     title: "Genetic engineering",
     tagline: "Experimental support for genetic engineering workflows.",
@@ -117,14 +117,14 @@ export const servicesNav: CatalogNode[] = [
   },
   {
     slug: "cellrelation",
-    navLabel: "Cell-related services",
+    navLabel: "Cell-related Services",
     navOrder: 5,
     title: "Cell-related services",
     tagline: "Cell work support, handling, and related service options.",
     children: [
       { slug: "str", navLabel: "STR Analysis", navOrder: 2, title: "STR Analysis" },
-      { slug: "protein_expression", navLabel: "Animal cell protein expression", navOrder: 3, title: "Animal cell protein expression" },
-      { slug: "strain_est", navLabel: "Stable expression strain establishment", navOrder: 1, title: "Stable expression strain establishment" },
+      { slug: "protein_expression", navLabel: "Animal Cell Protein Expression", navOrder: 3, title: "Animal cell protein expression" },
+      { slug: "strain_est", navLabel: "Stable Expression Strain Establishment", navOrder: 1, title: "Stable expression strain establishment" },
       ],
   },
 ];
@@ -142,7 +142,7 @@ export const servicesNav: CatalogNode[] = [
 export const instrumentsNav: CatalogNode[] = [
   {
     slug: "electroporator",
-    navLabel: "Electroporators",
+    navLabel: "Electroporation Systems",
     navOrder: 1,
     title: "Electroporators",
     tagline: "In vivo & in vitro electroporation solutions.",

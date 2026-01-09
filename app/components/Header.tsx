@@ -87,7 +87,7 @@ useEffect(() => {
   };
 
   return (
-    <header ref={headerRef} className="sticky top-0 z-50 bg-white border-b">
+    <header ref={headerRef} className="sticky top-0 z-50 bg-gray-50">
       <div className="mx-auto max-w-6xl px-6 h-20 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="inline-flex items-center" onClick={closeAll}>
